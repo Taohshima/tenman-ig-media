@@ -1,0 +1,780 @@
+{
+ "fetched_at": "2026-10-28T16:06+09:00",
+ "account": {
+  "id": "17841453767359170",
+  "followers_count": 341,
+  "follows_count": 174,
+  "media_count": 96,
+  "username": "tenman_honten"
+ },
+ "daily": {
+  "follower_count": [
+   {
+    "date": "2026-10-01",
+    "value": 0
+   },
+   {
+    "date": "2026-10-02",
+    "value": 0
+   },
+   {
+    "date": "2026-10-03",
+    "value": 0
+   },
+   {
+    "date": "2026-10-04",
+    "value": 0
+   },
+   {
+    "date": "2026-10-05",
+    "value": 0
+   },
+   {
+    "date": "2026-10-06",
+    "value": 0
+   },
+   {
+    "date": "2026-10-07",
+    "value": 1
+   },
+   {
+    "date": "2026-10-08",
+    "value": 6
+   },
+   {
+    "date": "2026-10-09",
+    "value": 0
+   },
+   {
+    "date": "2026-10-10",
+    "value": 0
+   },
+   {
+    "date": "2026-10-11",
+    "value": 0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 0
+   },
+   {
+    "date": "2026-10-13",
+    "value": 0
+   },
+   {
+    "date": "2026-10-14",
+    "value": 0
+   },
+   {
+    "date": "2026-10-15",
+    "value": 1
+   },
+   {
+    "date": "2026-10-16",
+    "value": 0
+   },
+   {
+    "date": "2026-10-17",
+    "value": 1
+   },
+   {
+    "date": "2026-10-18",
+    "value": 0
+   },
+   {
+    "date": "2026-10-19",
+    "value": 1
+   },
+   {
+    "date": "2026-10-20",
+    "value": 0
+   },
+   {
+    "date": "2026-10-21",
+    "value": 0
+   },
+   {
+    "date": "2026-10-22",
+    "value": 0
+   },
+   {
+    "date": "2026-10-23",
+    "value": 0
+   },
+   {
+    "date": "2026-10-24",
+    "value": 0
+   },
+   {
+    "date": "2026-10-25",
+    "value": 0
+   },
+   {
+    "date": "2026-10-26",
+    "value": 0
+   },
+   {
+    "date": "2026-10-27",
+    "value": 0
+   },
+   {
+    "date": "2026-10-28",
+    "value": 0
+   }
+  ],
+  "reach": [
+   {
+    "date": "2026-10-01",
+    "value": 3
+   },
+   {
+    "date": "2026-10-02",
+    "value": 1
+   },
+   {
+    "date": "2026-10-03",
+    "value": 3
+   },
+   {
+    "date": "2026-10-04",
+    "value": 0
+   },
+   {
+    "date": "2026-10-05",
+    "value": 0
+   },
+   {
+    "date": "2026-10-06",
+    "value": 2
+   },
+   {
+    "date": "2026-10-07",
+    "value": 2
+   },
+   {
+    "date": "2026-10-08",
+    "value": 5163
+   },
+   {
+    "date": "2026-10-09",
+    "value": 2313
+   },
+   {
+    "date": "2026-10-10",
+    "value": 232
+   },
+   {
+    "date": "2026-10-11",
+    "value": 86
+   },
+   {
+    "date": "2026-10-12",
+    "value": 198
+   },
+   {
+    "date": "2026-10-13",
+    "value": 47
+   },
+   {
+    "date": "2026-10-14",
+    "value": 221
+   },
+   {
+    "date": "2026-10-15",
+    "value": 83
+   },
+   {
+    "date": "2026-10-16",
+    "value": 18
+   },
+   {
+    "date": "2026-10-17",
+    "value": 20
+   },
+   {
+    "date": "2026-10-18",
+    "value": 13
+   },
+   {
+    "date": "2026-10-19",
+    "value": 183
+   },
+   {
+    "date": "2026-10-20",
+    "value": 59
+   },
+   {
+    "date": "2026-10-21",
+    "value": 26
+   },
+   {
+    "date": "2026-10-22",
+    "value": 108
+   },
+   {
+    "date": "2026-10-23",
+    "value": 27
+   },
+   {
+    "date": "2026-10-24",
+    "value": 94
+   },
+   {
+    "date": "2026-10-25",
+    "value": 27
+   },
+   {
+    "date": "2026-10-26",
+    "value": 10
+   },
+   {
+    "date": "2026-10-27",
+    "value": 9
+   },
+   {
+    "date": "2026-10-28",
+    "value": 0
+   }
+  ]
+ },
+ "posts": [
+  {
+   "id": "18007530539791759",
+   "comments_count": 0,
+   "like_count": 15,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/De31QCQEyZ8/",
+   "timestamp": "2026-10-24T09:40:04+0000",
+   "metrics": {
+    "reach": 94,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 15,
+    "views": 177,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "発売から、はや14年❗"
+  },
+  {
+   "id": "18183060913424970",
+   "comments_count": 0,
+   "like_count": 9,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/Deyt9FvDKM1/",
+   "timestamp": "2026-10-22T10:00:06+0000",
+   "metrics": {
+    "reach": 134,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 9,
+    "views": 263,
+    "follows": 1,
+    "profile_visits": 4
+   },
+   "caption_head": "📄 「処方せんは、生命の紙。」"
+  },
+  {
+   "id": "17902520130375971",
+   "comments_count": 0,
+   "like_count": 23,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/Deq_kgnCLP9/",
+   "timestamp": "2026-10-19T10:00:09+0000",
+   "metrics": {
+    "reach": 269,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 24,
+    "views": 464,
+    "follows": 1,
+    "profile_visits": 11
+   },
+   "caption_head": "「今まで見たことのない手ぬぐいを作りたい。」"
+  },
+  {
+   "id": "18130575872311012",
+   "comments_count": 0,
+   "like_count": 13,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DeenGUIkeKg/",
+   "timestamp": "2026-10-14T14:36:02+0000",
+   "metrics": {
+    "reach": 286,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 14,
+    "views": 350
+   },
+   "caption_head": "長崎市の知る人ぞ知る伝統行事、若宮稲荷神社の「竹ン芸」🎋"
+  },
+  {
+   "id": "17922751680431086",
+   "comments_count": 2,
+   "like_count": 20,
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DeY-DIaEU-r/",
+   "timestamp": "2026-10-12T10:00:29+0000",
+   "metrics": {
+    "reach": 249,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 23,
+    "views": 566,
+    "follows": 0,
+    "profile_visits": 7
+   },
+   "caption_head": "🎬 このお店ができて、4年と数ヶ月。"
+  },
+  {
+   "id": "18092223917663106",
+   "comments_count": 0,
+   "like_count": 43,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DeQ-WRaleLz/",
+   "timestamp": "2026-10-09T07:29:41+0000",
+   "metrics": {
+    "reach": 1438,
+    "saved": 7,
+    "shares": 0,
+    "total_interactions": 53,
+    "views": 1681
+   },
+   "caption_head": "🏮 長崎くんち 2026 🏮"
+  },
+  {
+   "id": "18088219286704877",
+   "comments_count": 1,
+   "like_count": 79,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DeQLCAkjRD2/",
+   "timestamp": "2026-10-09T00:01:25+0000",
+   "metrics": {
+    "reach": 1162,
+    "saved": 6,
+    "shares": 0,
+    "total_interactions": 89,
+    "views": 1486
+   },
+   "caption_head": "🏮 長崎くんち 2026 🏮"
+  },
+  {
+   "id": "17888003208479860",
+   "comments_count": 0,
+   "like_count": 115,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DeOsbhJiQ1Z/",
+   "timestamp": "2026-10-08T10:14:37+0000",
+   "metrics": {
+    "reach": 5640,
+    "saved": 10,
+    "shares": 0,
+    "total_interactions": 129,
+    "views": 6554
+   },
+   "caption_head": "🏮 長崎くんち 2026 🏮"
+  },
+  {
+   "id": "18025310786446652",
+   "comments_count": 0,
+   "like_count": 21,
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/DIGixq0NOWT/",
+   "timestamp": "2025-04-06T10:45:10+0000",
+   "metrics": {
+    "reach": 277,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 22,
+    "views": 965,
+    "follows": 0,
+    "profile_visits": 6
+   },
+   "caption_head": "長崎の果物と言えば、ビワ✨"
+  },
+  {
+   "id": "17943407618971374",
+   "comments_count": 0,
+   "like_count": 15,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/DH5rbfGMvOn/",
+   "timestamp": "2025-04-01T10:50:40+0000",
+   "metrics": {
+    "reach": 309,
+    "saved": 2,
+    "shares": 0,
+    "total_interactions": 17,
+    "views": 1033,
+    "follows": 0,
+    "profile_visits": 2
+   },
+   "caption_head": "新しい季節"
+  },
+  {
+   "id": "18299640853204853",
+   "comments_count": 0,
+   "like_count": 24,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/DAkkYdCyERz/",
+   "timestamp": "2024-10-01T06:26:56+0000",
+   "metrics": {
+    "reach": 309,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 25,
+    "views": 1229
+   },
+   "caption_head": "一つ一つ手書きされた"
+  },
+  {
+   "id": "18120650047364572",
+   "comments_count": 0,
+   "like_count": 12,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/C8L7mNjRftV/",
+   "timestamp": "2024-06-14T06:42:45+0000",
+   "metrics": {
+    "reach": 134,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 13,
+    "views": 830
+   },
+   "caption_head": "眼鏡橋より徒歩100歩"
+  },
+  {
+   "id": "17983782992237631",
+   "comments_count": 0,
+   "like_count": 14,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/CxhJ7GYx-VO/",
+   "timestamp": "2023-09-23T02:45:42+0000",
+   "metrics": {
+    "reach": 84,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 14,
+    "views": 628
+   },
+   "caption_head": "本日は てんまんデー✨"
+  },
+  {
+   "id": "18005497348831429",
+   "comments_count": 3,
+   "like_count": 22,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Cw60Jz2R89t/",
+   "timestamp": "2023-09-08T05:26:45+0000",
+   "metrics": {
+    "reach": 133,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 25,
+    "views": 1855
+   },
+   "caption_head": "長崎くんちまで1ヶ月をきりましたね！"
+  },
+  {
+   "id": "17993657171074424",
+   "comments_count": 0,
+   "like_count": 12,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Cujfxhdx2Uv/",
+   "timestamp": "2023-07-11T11:00:00+0000",
+   "metrics": {
+    "reach": 63,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 13,
+    "views": 348
+   },
+   "caption_head": "#養生あろま　#アロマ　#長崎　#お試し　#和　#天然　#生活　#オーガニック　#てんまん香粧薬房"
+  },
+  {
+   "id": "17972639792266845",
+   "comments_count": 0,
+   "like_count": 24,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/CuePUVMxZFb/",
+   "timestamp": "2023-07-09T10:00:00+0000",
+   "metrics": {
+    "reach": 113,
+    "saved": 2,
+    "shares": 0,
+    "total_interactions": 26,
+    "views": 599
+   },
+   "caption_head": "#長崎　#眼鏡橋　#てんまん香粧薬房 　#土産　#ハンドクリーム　#スキンケア　#養生あろま　#花ござ　さん近く　#AT"
+  },
+  {
+   "id": "17998501711938229",
+   "comments_count": 0,
+   "like_count": 10,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/CubxVtGx_H_/",
+   "timestamp": "2023-07-08T11:00:00+0000",
+   "metrics": {
+    "reach": 57,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 10,
+    "views": 308
+   },
+   "caption_head": "#アウトドア　#虫除け　#おでかけ　#天然100 　#クスノキ 　#ユーカリレモン 　#ハッカ 　#香り 　#夏　#安心"
+  },
+  {
+   "id": "17908278236715330",
+   "comments_count": 0,
+   "like_count": 14,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/CuZMnRJxTTI/",
+   "timestamp": "2023-07-07T11:00:00+0000",
+   "metrics": {
+    "reach": 51,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 14,
+    "views": 290
+   },
+   "caption_head": "#長崎　#養生　#アロマ　#爽やか　#涼しい"
+  },
+  {
+   "id": "17934217598698191",
+   "comments_count": 0,
+   "like_count": 11,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/CuTQh6kO8_7/",
+   "timestamp": "2023-07-05T03:42:48+0000",
+   "metrics": {
+    "reach": 46,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 11,
+    "views": 270
+   },
+   "caption_head": "#長崎　#アロマ　#黒文字　#人気　#あさイチ　#天然　#眼鏡橋　#香り　#癒し　#疲れ　#自律神経　#整う"
+  },
+  {
+   "id": "18003665062846532",
+   "comments_count": 0,
+   "like_count": 9,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/CuNnAiGRqxo/",
+   "timestamp": "2023-07-02T23:00:00+0000",
+   "metrics": {
+    "reach": 43,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 9,
+    "views": 214
+   },
+   "caption_head": "#アロマ "
+  },
+  {
+   "id": "18196936195268825",
+   "comments_count": 0,
+   "like_count": 11,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/CuDkRxWL5Jz/",
+   "timestamp": "2023-06-29T01:24:20+0000",
+   "metrics": {
+    "reach": 38,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 12,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 1
+   },
+   "caption_head": "【養生あろま 和製油 -黒文字- 】"
+  },
+  {
+   "id": "18032932432508761",
+   "comments_count": 0,
+   "like_count": 12,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Ct3Irq_g33G/",
+   "timestamp": "2023-06-24T05:32:37+0000",
+   "metrics": {
+    "reach": 48,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 12,
+    "views": 375
+   },
+   "caption_head": "ハズレなし"
+  },
+  {
+   "id": "17992853249007376",
+   "comments_count": 0,
+   "like_count": 9,
+   "media_product_type": "REELS",
+   "media_type": "VIDEO",
+   "permalink": "https://www.instagram.com/reel/Ct0cFgnPbX6/",
+   "timestamp": "2023-06-23T04:24:58+0000",
+   "metrics": {
+    "reach": 43,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 9,
+    "views": 263
+   },
+   "caption_head": "中通り商店街の厳選品も"
+  },
+  {
+   "id": "17996755855938336",
+   "comments_count": 0,
+   "like_count": 14,
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/Ct0RbxwLFz_/",
+   "timestamp": "2023-06-23T02:51:03+0000",
+   "metrics": {
+    "reach": 29,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 14,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "【6月23,24,25日は感謝祭 第3弾】"
+  },
+  {
+   "id": "17963281040363295",
+   "comments_count": 0,
+   "like_count": 24,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/Ct0PjiTLHM9/",
+   "timestamp": "2023-06-23T02:34:39+0000",
+   "metrics": {
+    "reach": 34,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 24,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 1
+   },
+   "caption_head": "【長崎陶器 カステラ箸置き】"
+  },
+  {
+   "id": "17981536640273605",
+   "comments_count": 0,
+   "like_count": 25,
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/Cth8jk5gd-f/",
+   "timestamp": "2023-06-16T00:02:17+0000",
+   "metrics": {
+    "reach": 29,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 26,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "【6月16,17,18日は感謝祭 第2弾！！】"
+  },
+  {
+   "id": "18020509144575908",
+   "comments_count": 0,
+   "like_count": 14,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/CtPWAS_vko6/",
+   "timestamp": "2023-06-08T18:39:06+0000",
+   "metrics": {
+    "reach": 23,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 14,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "【長崎万彩てぬぐい 輝航-軍艦島-】"
+  },
+  {
+   "id": "17958090122600731",
+   "comments_count": 0,
+   "like_count": 16,
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/CtPRjaspDMd/",
+   "timestamp": "2023-06-08T18:00:12+0000",
+   "metrics": {
+    "reach": 23,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 16,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "【本日より開催！！】"
+  },
+  {
+   "id": "17990362382058791",
+   "comments_count": 0,
+   "like_count": 23,
+   "media_product_type": "FEED",
+   "media_type": "CAROUSEL_ALBUM",
+   "permalink": "https://www.instagram.com/p/CtK8f00LkxM/",
+   "timestamp": "2023-06-07T01:39:15+0000",
+   "metrics": {
+    "reach": 24,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 24,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "【2023年6月10日 祝 1周年】"
+  },
+  {
+   "id": "17959968245551349",
+   "comments_count": 0,
+   "like_count": 12,
+   "media_product_type": "FEED",
+   "media_type": "IMAGE",
+   "permalink": "https://www.instagram.com/p/CtK7AE5rXyI/",
+   "timestamp": "2023-06-07T01:26:11+0000",
+   "metrics": {
+    "reach": 24,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 13,
+    "views": 0,
+    "follows": 0,
+    "profile_visits": 0
+   },
+   "caption_head": "【再再入荷】"
+  }
+ ]
+}
