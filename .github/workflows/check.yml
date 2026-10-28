@@ -1,0 +1,39 @@
+name: check-token
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/check.yml']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Call Graph API (read-only)
+        env:
+          TOKEN: ${{ secrets.META_TOKEN }}
+        run: |
+          set -u
+          V=v21.0
+          IG=17841453767359170
+          PAGE=105225182223732
+          {
+            echo '{'
+            echo '"checked_at":"'$(date -u +%FT%TZ)'",'
+            echo '"token_set":'$([ -n "$TOKEN" ] && echo true || echo false)','
+            echo '"permissions":'; curl -s "https://graph.facebook.com/$V/me/permissions?access_token=$TOKEN"; echo ','
+            echo '"ig_account":'; curl -s "https://graph.facebook.com/$V/$IG?fields=username,followers_count,media_count&access_token=$TOKEN"; echo ','
+            echo '"page":'; curl -s "https://graph.facebook.com/$V/$PAGE?fields=name,instagram_business_account&access_token=$TOKEN"; echo ','
+            echo '"publish_limit":'; curl -s "https://graph.facebook.com/$V/$IG/content_publishing_limit?access_token=$TOKEN"
+            echo '}'
+          } > status/check.json
+          grep -q "$TOKEN" status/check.json && { echo "token leaked into output"; exit 1; } || true
+          cat status/check.json
+      - name: Save result
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add status/check.json
+          git commit -m "Token check result" || true
+          git push
