@@ -14,7 +14,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.META_TOKEN }}
         run: |
-          set -u
           V=v21.0
           IG=17841453767359170
           PAGE=105225182223732
@@ -28,9 +27,10 @@ jobs:
             echo '"publish_limit":'; curl -s "https://graph.facebook.com/$V/$IG/content_publishing_limit?access_token=$TOKEN"
             echo '}'
           } > status/check.json
-          grep -q "$TOKEN" status/check.json && { echo "token leaked into output"; exit 1; } || true
+          if [ -n "$TOKEN" ] && grep -qF "$TOKEN" status/check.json; then echo '{"error":"token appeared in output; result withheld"}' > status/check.json; fi
           cat status/check.json
       - name: Save result
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
