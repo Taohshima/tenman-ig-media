@@ -4,36 +4,34 @@ on:
   push:
     paths: ['.github/workflows/check.yml']
 permissions:
-  contents: write
+  contents: read
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - name: Call Graph API (read-only)
         env:
           TOKEN: ${{ secrets.META_TOKEN }}
+        shell: python
         run: |
-          V=v21.0
-          IG=17841453767359170
-          PAGE=105225182223732
-          {
-            echo '{'
-            echo '"checked_at":"'$(date -u +%FT%TZ)'",'
-            echo '"token_set":'$([ -n "$TOKEN" ] && echo true || echo false)','
-            echo '"permissions":'; curl -s "https://graph.facebook.com/$V/me/permissions?access_token=$TOKEN"; echo ','
-            echo '"ig_account":'; curl -s "https://graph.facebook.com/$V/$IG?fields=username,followers_count,media_count&access_token=$TOKEN"; echo ','
-            echo '"page":'; curl -s "https://graph.facebook.com/$V/$PAGE?fields=name,instagram_business_account&access_token=$TOKEN"; echo ','
-            echo '"publish_limit":'; curl -s "https://graph.facebook.com/$V/$IG/content_publishing_limit?access_token=$TOKEN"
-            echo '}'
-          } > status/check.json
-          if [ -n "$TOKEN" ] && grep -qF "$TOKEN" status/check.json; then echo '{"error":"token appeared in output; result withheld"}' > status/check.json; fi
-          cat status/check.json
-      - name: Save result
-        if: always()
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add status/check.json
-          git commit -m "Token check result" || true
-          git push
+          import os, json, urllib.request, urllib.error
+          tok = os.environ.get("TOKEN", "")
+          V, IG, PAGE = "v21.0", "17841453767359170", "105225182223732"
+          def get(path):
+              url = f"https://graph.facebook.com/{V}/{path}{'&' if '?' in path else '?'}access_token={tok}"
+              try:
+                  with urllib.request.urlopen(url, timeout=30) as r: return json.load(r)
+              except urllib.error.HTTPError as e:
+                  try: return json.load(e)
+                  except Exception: return {"http_error": e.code}
+              except Exception as e: return {"error": type(e).__name__}
+          out = {"token_set": bool(tok), "token_len": len(tok)}
+          if tok:
+              perms = get("me/permissions")
+              out["permissions"] = [p.get("permission")+":"+p.get("status","") for p in perms.get("data", [])] or perms
+              out["ig"] = get(f"{IG}?fields=username,followers_count,media_count")
+              out["page"] = get(f"{PAGE}?fields=name,instagram_business_account")
+          s = json.dumps(out, ensure_ascii=False)
+          if tok and tok in s: s = '{"error":"token in output; withheld"}'
+          print(s)
+          print("::notice title=check-result::" + s.replace("%","%25").replace("\n"," "))
