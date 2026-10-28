@@ -1,0 +1,11 @@
+{
+ "handled_at": "2026-10-28T07:25:37+00:00",
+ "instagram": {
+  "ok": true,
+  "dry_run": true,
+  "container": "18067211162792246"
+ },
+ "facebook": {
+  "skipped": true
+ }
+}
