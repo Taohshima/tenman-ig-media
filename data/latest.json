@@ -1,42 +1,14 @@
 {
- "fetched_at": "2026-11-09T10:44+09:00",
+ "fetched_at": "2026-11-16T11:10+09:00",
  "account": {
   "id": "17841453767359170",
-  "followers_count": 342,
+  "followers_count": 345,
   "follows_count": 174,
   "media_count": 96,
   "username": "tenman_honten"
  },
  "daily": {
   "follower_count": [
-   {
-    "date": "2026-10-12",
-    "value": 0
-   },
-   {
-    "date": "2026-10-13",
-    "value": 0
-   },
-   {
-    "date": "2026-10-14",
-    "value": 0
-   },
-   {
-    "date": "2026-10-15",
-    "value": 1
-   },
-   {
-    "date": "2026-10-16",
-    "value": 0
-   },
-   {
-    "date": "2026-10-17",
-    "value": 1
-   },
-   {
-    "date": "2026-10-18",
-    "value": 0
-   },
    {
     "date": "2026-10-19",
     "value": 1
@@ -120,37 +92,37 @@
    {
     "date": "2026-11-08",
     "value": 0
+   },
+   {
+    "date": "2026-11-09",
+    "value": 0
+   },
+   {
+    "date": "2026-11-10",
+    "value": 0
+   },
+   {
+    "date": "2026-11-11",
+    "value": 2
+   },
+   {
+    "date": "2026-11-12",
+    "value": 0
+   },
+   {
+    "date": "2026-11-13",
+    "value": 0
+   },
+   {
+    "date": "2026-11-14",
+    "value": 0
+   },
+   {
+    "date": "2026-11-15",
+    "value": 0
    }
   ],
   "reach": [
-   {
-    "date": "2026-10-12",
-    "value": 198
-   },
-   {
-    "date": "2026-10-13",
-    "value": 47
-   },
-   {
-    "date": "2026-10-14",
-    "value": 221
-   },
-   {
-    "date": "2026-10-15",
-    "value": 83
-   },
-   {
-    "date": "2026-10-16",
-    "value": 18
-   },
-   {
-    "date": "2026-10-17",
-    "value": 20
-   },
-   {
-    "date": "2026-10-18",
-    "value": 13
-   },
    {
     "date": "2026-10-19",
     "value": 183
@@ -234,6 +206,34 @@
    {
     "date": "2026-11-08",
     "value": 2
+   },
+   {
+    "date": "2026-11-09",
+    "value": 4
+   },
+   {
+    "date": "2026-11-10",
+    "value": 5
+   },
+   {
+    "date": "2026-11-11",
+    "value": 0
+   },
+   {
+    "date": "2026-11-12",
+    "value": 2
+   },
+   {
+    "date": "2026-11-13",
+    "value": 3
+   },
+   {
+    "date": "2026-11-14",
+    "value": 3
+   },
+   {
+    "date": "2026-11-15",
+    "value": 2
    }
   ]
  },
@@ -247,11 +247,11 @@
    "permalink": "https://www.instagram.com/p/De31QCQEyZ8/",
    "timestamp": "2026-10-24T09:40:04+0000",
    "metrics": {
-    "reach": 106,
+    "reach": 110,
     "saved": 0,
     "shares": 0,
     "total_interactions": 15,
-    "views": 191,
+    "views": 194,
     "follows": 0,
     "profile_visits": 0
    },
@@ -266,11 +266,11 @@
    "permalink": "https://www.instagram.com/p/Deyt9FvDKM1/",
    "timestamp": "2026-10-22T10:00:06+0000",
    "metrics": {
-    "reach": 143,
+    "reach": 145,
     "saved": 0,
     "shares": 0,
     "total_interactions": 9,
-    "views": 277,
+    "views": 282,
     "follows": 1,
     "profile_visits": 4
    },
@@ -289,7 +289,7 @@
     "saved": 1,
     "shares": 0,
     "total_interactions": 24,
-    "views": 483,
+    "views": 485,
     "follows": 1,
     "profile_visits": 11
    },
@@ -308,7 +308,7 @@
     "saved": 1,
     "shares": 0,
     "total_interactions": 14,
-    "views": 354
+    "views": 358
    },
    "caption_head": "長崎市の知る人ぞ知る伝統行事、若宮稲荷神社の「竹ン芸」🎋"
   },
@@ -321,11 +321,11 @@
    "permalink": "https://www.instagram.com/p/DeY-DIaEU-r/",
    "timestamp": "2026-10-12T10:00:29+0000",
    "metrics": {
-    "reach": 250,
+    "reach": 251,
     "saved": 1,
     "shares": 0,
     "total_interactions": 23,
-    "views": 567,
+    "views": 569,
     "follows": 0,
     "profile_visits": 7
    },
@@ -340,11 +340,11 @@
    "permalink": "https://www.instagram.com/reel/DeQ-WRaleLz/",
    "timestamp": "2026-10-09T07:29:41+0000",
    "metrics": {
-    "reach": 1444,
+    "reach": 1446,
     "saved": 7,
     "shares": 0,
     "total_interactions": 53,
-    "views": 1685
+    "views": 1687
    },
    "caption_head": "🏮 長崎くんち 2026 🏮"
   },
@@ -361,7 +361,7 @@
     "saved": 6,
     "shares": 0,
     "total_interactions": 89,
-    "views": 1510
+    "views": 1517
    },
    "caption_head": "🏮 長崎くんち 2026 🏮"
   },
@@ -378,7 +378,7 @@
     "saved": 10,
     "shares": 0,
     "total_interactions": 129,
-    "views": 6565
+    "views": 6566
    },
    "caption_head": "🏮 長崎くんち 2026 🏮"
   },
@@ -446,11 +446,11 @@
    "permalink": "https://www.instagram.com/reel/C8L7mNjRftV/",
    "timestamp": "2024-06-14T06:42:45+0000",
    "metrics": {
-    "reach": 132,
+    "reach": 133,
     "saved": 1,
     "shares": 0,
     "total_interactions": 13,
-    "views": 833
+    "views": 835
    },
    "caption_head": "眼鏡橋より徒歩100歩"
   },
@@ -463,11 +463,11 @@
    "permalink": "https://www.instagram.com/reel/CxhJ7GYx-VO/",
    "timestamp": "2023-09-23T02:45:42+0000",
    "metrics": {
-    "reach": 84,
+    "reach": 85,
     "saved": 0,
     "shares": 0,
     "total_interactions": 14,
-    "views": 629
+    "views": 631
    },
    "caption_head": "本日は てんまんデー✨"
   },
@@ -480,11 +480,11 @@
    "permalink": "https://www.instagram.com/reel/Cw60Jz2R89t/",
    "timestamp": "2023-09-08T05:26:45+0000",
    "metrics": {
-    "reach": 130,
+    "reach": 131,
     "saved": 0,
     "shares": 0,
     "total_interactions": 25,
-    "views": 1856
+    "views": 1858
    },
    "caption_head": "長崎くんちまで1ヶ月をきりましたね！"
   },
@@ -497,11 +497,11 @@
    "permalink": "https://www.instagram.com/reel/Cujfxhdx2Uv/",
    "timestamp": "2023-07-11T11:00:00+0000",
    "metrics": {
-    "reach": 58,
+    "reach": 59,
     "saved": 1,
     "shares": 0,
     "total_interactions": 13,
-    "views": 349
+    "views": 351
    },
    "caption_head": "#養生あろま　#アロマ　#長崎　#お試し　#和　#天然　#生活　#オーガニック　#てんまん香粧薬房"
   },
@@ -514,11 +514,11 @@
    "permalink": "https://www.instagram.com/reel/CuePUVMxZFb/",
    "timestamp": "2023-07-09T10:00:00+0000",
    "metrics": {
-    "reach": 103,
+    "reach": 105,
     "saved": 2,
     "shares": 0,
     "total_interactions": 26,
-    "views": 599
+    "views": 601
    },
    "caption_head": "#長崎　#眼鏡橋　#てんまん香粧薬房 　#土産　#ハンドクリーム　#スキンケア　#養生あろま　#花ござ　さん近く　#AT"
   },
@@ -531,11 +531,11 @@
    "permalink": "https://www.instagram.com/reel/CubxVtGx_H_/",
    "timestamp": "2023-07-08T11:00:00+0000",
    "metrics": {
-    "reach": 55,
+    "reach": 56,
     "saved": 0,
     "shares": 0,
     "total_interactions": 10,
-    "views": 308
+    "views": 309
    },
    "caption_head": "#アウトドア　#虫除け　#おでかけ　#天然100 　#クスノキ 　#ユーカリレモン 　#ハッカ 　#香り 　#夏　#安心"
   },
@@ -548,11 +548,11 @@
    "permalink": "https://www.instagram.com/reel/CuZMnRJxTTI/",
    "timestamp": "2023-07-07T11:00:00+0000",
    "metrics": {
-    "reach": 49,
+    "reach": 50,
     "saved": 0,
     "shares": 0,
     "total_interactions": 14,
-    "views": 291
+    "views": 292
    },
    "caption_head": "#長崎　#養生　#アロマ　#爽やか　#涼しい"
   },
@@ -565,11 +565,11 @@
    "permalink": "https://www.instagram.com/reel/CuTQh6kO8_7/",
    "timestamp": "2023-07-05T03:42:48+0000",
    "metrics": {
-    "reach": 43,
+    "reach": 44,
     "saved": 0,
     "shares": 0,
     "total_interactions": 11,
-    "views": 270
+    "views": 271
    },
    "caption_head": "#長崎　#アロマ　#黒文字　#人気　#あさイチ　#天然　#眼鏡橋　#香り　#癒し　#疲れ　#自律神経　#整う"
   },
@@ -582,11 +582,11 @@
    "permalink": "https://www.instagram.com/reel/CuNnAiGRqxo/",
    "timestamp": "2023-07-02T23:00:00+0000",
    "metrics": {
-    "reach": 39,
+    "reach": 40,
     "saved": 0,
     "shares": 0,
     "total_interactions": 9,
-    "views": 214
+    "views": 215
    },
    "caption_head": "#アロマ "
   },
@@ -599,7 +599,7 @@
    "permalink": "https://www.instagram.com/p/CuDkRxWL5Jz/",
    "timestamp": "2023-06-29T01:24:20+0000",
    "metrics": {
-    "reach": 36,
+    "reach": 37,
     "saved": 1,
     "shares": 0,
     "total_interactions": 12,
@@ -622,7 +622,7 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 12,
-    "views": 375
+    "views": 376
    },
    "caption_head": "ハズレなし"
   },
@@ -639,7 +639,7 @@
     "saved": 0,
     "shares": 0,
     "total_interactions": 9,
-    "views": 264
+    "views": 265
    },
    "caption_head": "中通り商店街の厳選品も"
   },
@@ -671,7 +671,7 @@
    "permalink": "https://www.instagram.com/p/Ct0PjiTLHM9/",
    "timestamp": "2023-06-23T02:34:39+0000",
    "metrics": {
-    "reach": 31,
+    "reach": 32,
     "saved": 0,
     "shares": 0,
     "total_interactions": 24,
@@ -690,7 +690,7 @@
    "permalink": "https://www.instagram.com/p/Cth8jk5gd-f/",
    "timestamp": "2023-06-16T00:02:17+0000",
    "metrics": {
-    "reach": 27,
+    "reach": 28,
     "saved": 1,
     "shares": 0,
     "total_interactions": 26,
@@ -709,7 +709,7 @@
    "permalink": "https://www.instagram.com/p/CtPWAS_vko6/",
    "timestamp": "2023-06-08T18:39:06+0000",
    "metrics": {
-    "reach": 21,
+    "reach": 22,
     "saved": 0,
     "shares": 0,
     "total_interactions": 14,
@@ -728,7 +728,7 @@
    "permalink": "https://www.instagram.com/p/CtPRjaspDMd/",
    "timestamp": "2023-06-08T18:00:12+0000",
    "metrics": {
-    "reach": 21,
+    "reach": 22,
     "saved": 0,
     "shares": 0,
     "total_interactions": 16,
@@ -747,7 +747,7 @@
    "permalink": "https://www.instagram.com/p/CtK8f00LkxM/",
    "timestamp": "2023-06-07T01:39:15+0000",
    "metrics": {
-    "reach": 21,
+    "reach": 22,
     "saved": 1,
     "shares": 0,
     "total_interactions": 24,
@@ -766,7 +766,7 @@
    "permalink": "https://www.instagram.com/p/CtK7AE5rXyI/",
    "timestamp": "2023-06-07T01:26:11+0000",
    "metrics": {
-    "reach": 23,
+    "reach": 24,
     "saved": 1,
     "shares": 0,
     "total_interactions": 13,
